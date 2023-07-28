@@ -19,12 +19,12 @@
 
 
 // cost, taxPerCent > parameter
-function calculationTax(cost, taxPerCent) {
-  console.log(cost * 0,1);
+function calculateTax(cost, taxPerCent = 0.1) {
+  console.log(cost * taxPerCent);
 }
 
-calculateTax(2000, 0,2);
-calculateTax(5000, 0,3);
+calculateTax(2000, 0.2)
+calculateTax(5000)
 
 // 2000,5000 > value or argument
 </script>
